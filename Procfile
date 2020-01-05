@@ -1,0 +1,1 @@
+web: gunicorn mycraiglist.wsgi
