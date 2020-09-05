@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from requests.compat import quote_plus
 from . import models
 
+
 # Create your views here.
 BASE_CRAIGSLIST_URL='https://terrehaute.craigslist.org/search/?query={}'
 BASE_IMAGE_URL = 'https://images.craigslist.org/{}_300x300.jpg'
